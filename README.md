@@ -53,7 +53,7 @@ Add a catchy title to your project. Something that people immediately know what 
 
 # Pipelines
 - Cleaned data has been ingested in Data Lake bucket(Cloud storage).
-![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-data-cli.png)
+![alt text]()
 - CloudComposer (Google Managed Apache Airflow) will be using for ETL Pipeline to Data Warehouse 
 - Go through your development and add your source code
 
