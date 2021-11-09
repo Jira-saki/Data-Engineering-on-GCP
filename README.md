@@ -1,5 +1,5 @@
 
-# Title Of Your Project
+# GCP ETL Pipeline using Cloudcomposer, Apache Airflow, Google cloud Storage,Big query. 
 Add a catchy title to your project. Something that people immediately know what you are doing well
 
 # Introduction & Goals
@@ -33,17 +33,17 @@ Add a catchy title to your project. Something that people immediately know what 
 
 
 # The Data Set
-- Explain the data set
+- The dataset has been cleaned in Google colab with Spark.
 - Why did you choose it?
 - What do you like about it?
 - What is problematic?
 - What do you want to do with it?
 
 # Used Tools
-- Explain which tools do you use and why
-- How do they work (don't go too deep into details, but add links)
-- Why did you choose them
-- How did you set them up
+- Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
+- Setting environment in cloud composer and use DAG in Airflow for orchastration.
+- ETL Data will be loaded to Data Warehouse ready for analysis. 
+![alt text](http://url/to/datalake-bucket.png)
 
 ## Connect
 ## Buffer
@@ -52,7 +52,8 @@ Add a catchy title to your project. Something that people immediately know what 
 ## Visualization
 
 # Pipelines
-- Explain the pipelines for processing that you are building
+- Cleaned data resting in Data Lake.
+- CloudComposer (Google Managed Apache Airflow) will be using for ETL Pipeline to Data Warehouse 
 - Go through your development and add your source code
 
 ## Stream Processing
