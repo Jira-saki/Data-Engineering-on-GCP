@@ -43,7 +43,7 @@ Add a catchy title to your project. Something that people immediately know what 
 - Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
 - Setting environment in cloud composer and use DAG in Airflow for orchastration.
 - ETL Data will be loaded to Data Warehouse ready for analysis. 
-![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-data-cli.png)
+
 
 ## Connect
 ## Buffer
@@ -53,6 +53,7 @@ Add a catchy title to your project. Something that people immediately know what 
 
 # Pipelines
 - Cleaned data resting in Data Lake.
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-data-cli.png)
 - CloudComposer (Google Managed Apache Airflow) will be using for ETL Pipeline to Data Warehouse 
 - Go through your development and add your source code
 
