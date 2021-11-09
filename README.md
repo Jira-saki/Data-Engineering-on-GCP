@@ -1,5 +1,5 @@
 
-# GCP ETL Pipeline using Cloudcomposer, Apache Airflow, Google cloud Storage,Big query. 
+# GCP ETL Pipeline using Cloudcomposer, Apache Airflow, Cloud Storage. 
 Add a catchy title to your project. Something that people immediately know what you are doing well
 
 # Introduction & Goals
