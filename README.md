@@ -1,5 +1,6 @@
 
-# GCP ETL Pipeline using Cloud Composer, Apache Airflow, Cloud Storage. 
+# ETL Pipeline using Apache Airflow, Cloud Storage on GCP. 
+
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/GCP_ETL.png)
 
 # Introduction & Goals
