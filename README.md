@@ -3,13 +3,8 @@
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/GCP_ETL.png)
 
 # Introduction & Goals
-- Introduce your project to the reader
-- Orient this section on the Table of contents
-- Write this like an executive summary
-  - With what data are you working
-  - What tools are you using
-  - What are you doing with these tools
-  - Once you are finished add the conclusion here as well
+- This project is about ETL job of transaction audible data and audible book ID, extract to Apache Airflow , Transform data, loading to Data lake destination. 
+
 
 # Contents
 
@@ -19,9 +14,6 @@
   - [Processing](#processing)
   - [Storage](#storage)
 - [Pipelines](#pipelines)
-  - [Batch Processing](#batch-processing)
-  - [Visualizations](#visualizations)
-- [Conclusion](#conclusion)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
 
@@ -34,15 +26,14 @@
 - Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
 
 
-## Connect
-## Buffer
-# Processing
-- Setting environment in cloud composer and use DAG in Airflow for orchastration.
 
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
+# Processing
+- Setting environment in cloud composer.
+
+
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
-
+- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
 - Install PyPI choosing PySQL, requests, Pandas
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/install_PyPI.png)
 
@@ -58,32 +49,22 @@
 - Run Dags
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
 
-- Output ETL Data will be loaded to Cloud coposer Bucket ready to tranfer to BigQuery for analysis. 
+- Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/output-bucket.png)
 
 
-## Storage
-## Visualization
-
 # Pipelines
-- Cleaned data has been ingested in Data Lake bucket(Cloud storage).
-
-## Stream Processing
-### Storing Data Stream
-### Processing Data Stream
-## Batch Processing
-## Visualizations
+-  DAGS
+-  Task 1:Get data from MySQL
+-  Task 2:Get data from API and change conversion rate.
+-  Task 3:Merge two data sets
+-  Load output data to Data Lake bucket(Cloud storage).
 
 
 
-# Conclusion
-Write a comprehensive conclusion.
-- How did this project turn out
-- What major things have you learned
-- What were the biggest challenges
 
 # Follow Me On
-Add the link to your LinkedIn Profile
+https://www.linkedin.com/in/jirasak-pakdeeto-900665214/
 
 # Appendix
 
