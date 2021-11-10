@@ -12,26 +12,25 @@
 - [Used Tools](#used-tools)
   - [Connect](#connect)
   - [Processing](#processing)
-  - [Storage](#storage)
 - [Pipelines](#pipelines)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
 
 
 # The Data Set
-- The dataset of online audible purchase is from MySQL Database and REST API ingested. 
+The dataset of online audible purchase is from MySQL Database and REST API ingested. 
 
 
 # Used Tools
-- Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
+ Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
 
 
 
 # Processing
-- Setting environment in cloud composer.
+Setting environment in cloud composer.
 
 
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
 - Install PyPI choosing PySQL, requests, Pandas
