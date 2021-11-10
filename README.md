@@ -33,7 +33,8 @@
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
 
--Install PyPI choosing PySQL, requests, Pandas
+
+- Install PyPI choosing PySQL, requests, Pandas
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/install_PyPI.png)
 
 -Bucket of Airflow will be created in Cloud storage
