@@ -1,6 +1,7 @@
 
 # GCP ETL Pipeline using Cloudcomposer, Apache Airflow, Cloud Storage. 
 Add a catchy title to your project. Something that people immediately know what you are doing well
+![alt text]()
 
 # Introduction & Goals
 - Introduce your project to the reader
