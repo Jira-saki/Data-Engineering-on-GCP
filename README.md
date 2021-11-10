@@ -10,7 +10,6 @@
 
 - [The Data Set](#the-data-set)
 - [Used Tools](#used-tools)
-  - [Connect](#connect)
   - [Processing](#processing)
 - [Pipelines](#pipelines)
 - [Follow Me On](#follow-me-on)
@@ -18,37 +17,38 @@
 
 
 # The Data Set
-The dataset of online audible purchase is from MySQL Database and REST API ingested. 
+-The dataset of online audible purchase is from MySQL Database and REST API ingested. 
 
 
 # Used Tools
- Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
+-Python, CLI , Cloud Composer, Apache Airflow, Google Cloud Storage.
 
 
 
 # Processing
-Setting environment in cloud composer.
+-Setting environment in cloud composer.
 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
-Install PyPI choosing PySQL, requests, Pandas
+
+-Install PyPI choosing PySQL, requests, Pandas
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/install_PyPI.png)
 
-Bucket of Airflow will be created in Cloud storage
+-Bucket of Airflow will be created in Cloud storage
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/bucket-from-airflow.png) 
 
-Load Dags Python file to bucket at DAGS folder 
+-Load Dags Python file to bucket at DAGS folder 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-dags-to-gcs.png)
 
-Connect Airflow with MySQL
+-Connect Airflow with MySQL
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/connect-mysql.png)
 
-Run Dags
+-Run Dags
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
 
-Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
+-Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/output-bucket.png)
 
 
