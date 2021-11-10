@@ -31,33 +31,33 @@ Setting environment in cloud composer.
 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
-- Install PyPI choosing PySQL, requests, Pandas
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/install_PyPI.png)
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
+Install PyPI choosing PySQL, requests, Pandas
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/install_PyPI.png)
 
-- Bucket of Airflow will be created in Cloud storage
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/bucket-from-airflow.png) 
+Bucket of Airflow will be created in Cloud storage
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/bucket-from-airflow.png) 
 
-- Load Dags Python file to bucket at DAGS folder 
--  ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-dags-to-gcs.png)
+Load Dags Python file to bucket at DAGS folder 
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-dags-to-gcs.png)
 
-- Connect Airflow with MySQL
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/connect-mysql.png)
+Connect Airflow with MySQL
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/connect-mysql.png)
 
-- Run Dags
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
+Run Dags
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
 
-- Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
+Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/output-bucket.png)
 
 
 # Pipelines
--  DAGS
--  Task 1:Get data from MySQL
--  Task 2:Get data from API and change conversion rate.
--  Task 3:Merge two data sets
--  Load output data to Data Lake bucket(Cloud storage).
+DAGS
+  Task 1:Get data from MySQL
+  Task 2:Get data from API and change conversion rate.
+  Task 3:Merge two data sets
+Load output data to Data Lake bucket(Cloud storage).
 
 
 
