@@ -37,10 +37,9 @@
 ## Connect
 ## Buffer
 # Processing
-- Create Pipeline on Cloud Composer.
-- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
-
 - Setting environment in cloud composer and use DAG in Airflow for orchastration.
+
+- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
 - ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
 
