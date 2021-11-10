@@ -33,16 +33,11 @@
 
 
 # The Data Set
-- The dataset has been cleaned in Google colab with Spark.
-- Why did you choose it?
-- What do you like about it?
-- What is problematic?
-- What do you want to do with it?
+- The dataset of online audible purchase is from MySQL Database and REST API ingested. 
+
 
 # Used Tools
 - Python, CLI , Cloudcomposer, Apache Airflow, Google cloud Storage,Big query.
-- Setting environment in cloud composer and use DAG in Airflow for orchastration.
-- ETL Data will be loaded to Data Warehouse ready for analysis. 
 
 
 ## Connect
@@ -53,8 +48,19 @@
 
 # Pipelines
 - Cleaned data has been ingested in Data Lake bucket(Cloud storage).
+- ![alt text]()
+- Setting environment in cloud composer and use DAG in Airflow for orchastration.
+- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
+- ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
+
+- Load Dags Python file to ETL bucket 
+
+
+- Connect Airflow with MySQL
+- ![alt text]()
+- ETL Data will be loaded to Datalake ready to tranfer to Data Warehouse for analysis. 
 ![alt text]()
-- CloudComposer (Google Managed Apache Airflow) will be using for ETL Pipeline to Data Warehouse 
+- CloudComposer (Google Managed Apache Airflow) will be using for ETL Pipeline to Datalake 
 - Go through your development and add your source code
 
 ## Stream Processing
