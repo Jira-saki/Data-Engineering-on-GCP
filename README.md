@@ -59,10 +59,20 @@
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
 
 
-- Output ETL Data will be loaded to Cloud Storage Bucket. Copy data to BigQuery for analysis. 
+- Output ETL Data will be loaded to Cloud Storage Bucket. 
 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/output-bucket.png)
+
+- Manually load dataset to BigQuery. 
+
+
+![alt text]()
+
+- create dataset and table for further query or BI tool. 
+
+
+![alt text]()
 
 
 # Pipelines
