@@ -79,9 +79,7 @@
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-table-from-bucket.png)
 
-
-
-
+ - Link to My Google Data Studio Dashboard
 
 
 
