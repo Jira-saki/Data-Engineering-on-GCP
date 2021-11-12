@@ -89,7 +89,7 @@
   Task 2:Get data from API and change conversion rate.
   Task 3:Merge two data sets
 - Load output data to Data Lake bucket(Cloud storage).
-- load output data to data warehouse(BigQuery)
+- Create dataset in data warehouse (BigQuery) and load table for query and visualisation.
 
 
 
