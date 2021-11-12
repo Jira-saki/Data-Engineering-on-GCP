@@ -1,10 +1,12 @@
 
-# ETL Pipeline using Apache Airflow, Cloud Storage on GCP. 
+# ETL Pipeline on Google Cloud Platform. 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/GCP_ETL.png)
 
 # Introduction & Goals
-- This project is about ETL job of transaction audible data and audible book ID, extract to Apache Airflow , Transform data, loading to Data lake destination. 
+- This ETL Pipeline project is a part of [R2DE](https://school.datath.com/courses/road-to-data-engineer-2/dashboard) Data engineering course.
+- ETL job of transaction audible data and audible book ID, extract to Apache Airflow , Transform data, loading to Data lake destination.
+- Load specific data table to BigQuery for further analysis and visualisation. 
 
 
 # Contents
@@ -22,7 +24,7 @@
 
 
 # Used Tools
-- Python, CLI , Cloud Composer, Apache Airflow, Google Cloud Storage.
+- Python, CLI , Cloud Composer (Apache Airflow), Cloud Storage, BigQuery, Data Studio.
 
 
 
@@ -32,7 +34,9 @@
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-01.png)
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/set-env-02.png)
-![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/create-pipeline.png)
+
+
+
 
 
 
@@ -46,17 +50,21 @@
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/bucket-from-airflow.png) 
 
-- Load Dags Python file to bucket at DAGS folder 
+
+
+- Load [Dags](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/dag_code) Python code to bucket at DAGS folder 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-dags-to-gcs.png)
 
-- Connect Airflow with MySQL
 
-![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/connect-mysql.png)
+
+
+- Connect Airflow with MySQL
 
 - Run Dags
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/final_dags.png)
+
 
 
 - Output ETL Data will be loaded to Cloud Storage Bucket. 
@@ -64,15 +72,17 @@
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/output-bucket.png)
 
-- Manually load dataset to BigQuery. 
 
 
-![alt text]()
-
-- create dataset and table for further query or BI tool. 
+- Manually load dataset to BigQuery. Create dataset and table for further query or BI tool. 
 
 
-![alt text]()
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-table-from-bucket.png)
+
+
+
+
+
 
 
 # Pipelines
