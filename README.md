@@ -80,7 +80,10 @@
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-table-from-bucket.png)
 
 
+- Visualisation of data in Google Data Studio 
 
+
+![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/dashboard.png)
 
 
 # Pipelines
