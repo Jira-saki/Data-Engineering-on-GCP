@@ -79,7 +79,7 @@
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/load-table-from-bucket.png)
 
- - Link to My Google Data Studio Dashboard
+
 
 
 
@@ -89,6 +89,7 @@
   Task 2:Get data from API and change conversion rate.
   Task 3:Merge two data sets
 - Load output data to Data Lake bucket(Cloud storage).
+- load output data to data warehouse(BigQuery)
 
 
 
