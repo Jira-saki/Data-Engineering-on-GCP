@@ -1,11 +1,10 @@
 
-# ETL Pipeline on Google Cloud Platform. 
+# Data Engineering Pipeline on Google Cloud Platform. 
 
 ![alt text](https://github.com/Jira-saki/ETL-Pipeline-GCP/blob/main/image/GCP_ETL.png)
 
 # Introduction & Goals
-- This ETL Pipeline project is a part of [R2DE](https://school.datath.com/courses/road-to-data-engineer-2/dashboard) Data engineering course.
-- ETL job of transaction audible data and audible book ID, extract to Apache Airflow , Transform data, loading to Data lake destination.
+- Creating ETL job of transaction audible data and audible book ID, extract to Apache Airflow , Transform data, loading to Data lake destination.
 - Load specific data table to BigQuery for further analysis and visualisation. 
 
 
@@ -13,7 +12,7 @@
 
 - [The Data Set](#the-data-set)
 - [Used Tools](#used-tools)
-  - [Processing](#processing)
+- [Processing](#processing)
 - [Pipelines](#pipelines)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
@@ -24,11 +23,17 @@
 
 
 # Used Tools
-- Python, CLI , Cloud Composer (Apache Airflow), Cloud Storage, BigQuery, Data Studio.
+- Cloud Storage for Datalake
+- Google Colab Notebook for Data cleansing
+- Cloud Composer (Apache Airflow) workflow orchestration
+- BigQuery for Data Warehouse
+- Data Studio as Data Visualisation
 
 
 
 # Processing
+- ingest CSV data set from client (API, Transaction Database)
+- Cleansing dataset using Google colab notebook. 
 
 - Setting environment in cloud composer.
 
