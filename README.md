@@ -100,6 +100,3 @@
 # Follow Me On
 https://www.linkedin.com/in/jirasak-pakdeeto-900665214/
 
-# Appendix
-
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
